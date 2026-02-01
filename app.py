@@ -1,5 +1,3 @@
-# University FAQ Assistant
-
 import streamlit as st
 
 st.title("🎓 University FAQ Assistant")

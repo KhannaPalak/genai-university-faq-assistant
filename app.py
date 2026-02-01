@@ -1,11 +1,18 @@
 import streamlit as st
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
+
+st.set_page_config(page_title="University FAQ Assistant")
 
 st.title("🎓 University FAQ Assistant")
 
-st.write("Ask any question related to admissions, programs, or policies.")
+# Check if API key is loaded
+if os.getenv("OPENAI_API_KEY"):
+    st.success("OpenAI API key loaded successfully ✅")
+else:
+    st.error("OpenAI API key NOT found ❌")
 
-question = st.text_input("Enter your question:")
-
-if question:
-    st.write("You asked:")
-    st.success(question)
+st.write("Next step: connect documents and RAG pipeline.")

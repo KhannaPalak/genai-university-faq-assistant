@@ -1,19 +1,39 @@
 
-# GenAI University FAQ Assistant
+# 🎓 University FAQ Assistant 
 
-A GenAI-powered University FAQ Assistant using a document-based (RAG) approach to answer admission-related queries accurately and efficiently.
+A Python-based University FAQ Assistant with a clean graphical user interface, 
+admin panel, and future-ready GenAI + RAG architecture.
 
-## Features
+## ✨ Features
+- Menu-driven GUI
+- Student-friendly FAQ interface
+- Admin panel for configuration
+- API key–based AI integration 
+- Works without paid APIs
+- Designed for future GenAI & Retrieval-Augmented Generation
 
-- Answer questions about university programs, admission policies, deadlines, scholarships, and more.
-- Uses LangChain and OpenAI to process and retrieve information from university documents.
-- Fast, accurate, and conversational interface built with Streamlit.
-- Supports document compression and semantic search with FAISS.
+## 📚 FAQ Categories
+- Admissions
+- Courses
+- Fees
+- Scholarships
+- Exams
+- Hostel
+- Placements
+- Contact
 
-## Installation
+## 🛠️ Tech Stack
+- Python
+- Tkinter (GUI)
+- Thonny IDE
 
-1. Clone this repo:
+## 🚀 How to Run
+1. Open `app.py` in Thonny
+2. Click **Run**
+3. Start asking questions
 
-```bash
-git clone https://github.com/KhannaPalak/your-repo-name.git
-cd genai-university-faq-assistant
+## 📸 Screenshots
+(Added in LinkedIn post)
+
+## 👩‍💻 Author
+Palak Khanna
